@@ -7,17 +7,18 @@ Ececution Context --->        i.) Global Execution Context,
 
 /*
 Js code runs in two phases --->
-    i.) Memory creation phase
+     i.) Memory creation phase,
     ii.) Execution phase
 
 
 *** Everything allocates to 'this' ---> Memory creation phase(Every variables are initialize with 'undefined' and every functions are initialize with their 'definition')  ---> Execution phase 
 
-*** How many times we declare functions every time --> (Memory creation phase and Execution phase) happens recursively. (Note: Everytime a new stack is created for execute recursively called functions.)
+*** How many times we declare functions?
+Every time --> (Memory creation phase and Execution phase) happens recursively. (Note: Everytime a new stack is created for execute recursively called functions.)
 
 *** After completion of every tasks(or, phase) the 'New variable environment'(or, Memory stack) gets deleted(or, removes memory).
 
-*** For every new memory stack ---> (New variable environment + Execution thread) is allocates and after execution of everything these are deleted.
+*** For every new memory stack ---> (New variable environment + Execution thread) is allocates and after execution of everything those are deleted.
 
 */
 

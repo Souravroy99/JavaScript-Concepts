@@ -46,7 +46,9 @@ console.log(+"") ;
 
 console.log(null == 0) ; // Equality check
 console.log(null > 0) ;  // Comparison operator
+console.log(null <= 0) ; // Comparison operator
 console.log(null >= 0) ; // Comparison operator
+
 
 
 // === --> Datatype + value
@@ -65,7 +67,7 @@ console.log(null >= 0) ; // Comparison operator
 */
 
 
-const bigNumber = 12312312312312312312312312312384736253487538783787834787834787n ;
+const bigNumber = 1231231231231231231231231231238473625348753878378783478783478711111111000000000022222222222888888333333333377744444444466666665555551111111n ;
 console.log(bigNumber , " ---> ", typeof bigNumber) ;
 
 const myFunc = function(){

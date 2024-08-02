@@ -1,12 +1,12 @@
 const course = {
-    courseName: "Java script",
-    price: "191",
-    courseInstructure: "Hitesh",
+    courseName: "Java Script",
+    price: "111",
+    courseInstructure: "STROY",
 }
 
 console.log(course.courseInstructure);
 
-const {courseInstructure} = course
+const { courseInstructure } = course
 console.log(courseInstructure)
 
 const {courseInstructure: CI} = course

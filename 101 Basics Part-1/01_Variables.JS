@@ -1,10 +1,13 @@
+// JS is Synchronous
+// JS is Single threaded
+
 const accountId = 123 ;
 var email = "sourav@one.com"
 let Name = "HERO" ;
 
 let notDeclare ;
 
-/* var -> prefer to not use */
+/* var ---> prefer to not use */
 
 accountCity = 'Kolkata' ; /* Will work but we should declare datatype */
 
