@@ -9,7 +9,7 @@ Ececution Context --->        i.) Global Execution Context,
 Js code runs in two phases --->
      i.) Memory creation phase,
     ii.) Execution phase
-
+ 
 
 *** Everything allocates to 'this' ---> Memory creation phase(Every variables are initialize with 'undefined' and every functions are initialize with their 'definition')  ---> Execution phase 
 

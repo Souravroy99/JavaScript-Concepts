@@ -7,7 +7,7 @@ let Name = "HERO" ;
 
 let notDeclare ;
 
-/* var ---> prefer to not use */
+/* var ---> prefer not to use */
 
 accountCity = 'Kolkata' ; /* Will work but we should declare datatype */
 

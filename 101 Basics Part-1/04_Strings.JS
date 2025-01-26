@@ -21,6 +21,8 @@ console.log(gameName.__proto__) ;
 // Other functions/ Methods
 console.log(gameName.charAt(6)) ;
 console.log(gameName.indexOf('i'))
+console.log(gameName.indexOf('nj'))
+
 
 
 // Substring

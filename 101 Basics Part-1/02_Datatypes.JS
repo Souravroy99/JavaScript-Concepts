@@ -1,6 +1,6 @@
 "use strict" ; // (Default) Treat all JS code as newer version
 
-// numbet => 2 to power 53
+// number => 2^53
 // string => ""
 // boolean => true/false
 // null => standalone value
@@ -10,7 +10,7 @@
 // object => 
 
 console.log(typeof null) ;
-console.log(typeof undefined) ;
+console.log(typeof(undefined)) ;
 
 
 /*-------------------------------Datatype Conversion-------------------------------*/
@@ -19,7 +19,7 @@ let score = "a33a" ;
 console.log(typeof score) ;
 
 let strToNum = Number(score) ;
-console.table([strToNum, typeof strToNum, Number(null), String(undefined)]) ;
+console.table([strToNum, typeof strToNum, Number(null), Number(undefined), String(undefined)]) ;
 
 let val1 = " ", val2 = "" ;
 let toBoolVal1 = Boolean(val1) ;
@@ -38,6 +38,7 @@ console.log("1" + 2 + 2) ;
 console.log(1 + 2 + "2") ;
 
 console.log(+true) ;
+console.log(-true) ;
 console.log(+"") ;
 */
 
