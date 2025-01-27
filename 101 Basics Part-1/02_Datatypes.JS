@@ -73,7 +73,7 @@ console.log(bigNumber , " ---> ", typeof bigNumber) ;
 
 const myFunc = function(){
     console.log("Hello Guys") ;
-    return true ;
+    return true;
 }
 
 myFunc() ;

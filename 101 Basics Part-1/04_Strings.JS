@@ -22,17 +22,18 @@ console.log(gameName.__proto__) ;
 console.log(gameName.charAt(6)) ;
 console.log(gameName.indexOf('i'))
 console.log(gameName.indexOf('nj'))
+console.log(gameName.indexOf('nj7'))
 
 
 
 // Substring
-const newString = gameName.substring(1,3)   // (start_Index, end_Index-1)
+const newString = gameName.substring(2,5)   // (start_Index, end_Index-1)
 console.log(newString, typeof newString) 
 
 
 // Slice
 const newSplice = gameName.slice(-4, -1) ;  // (start_Index, end_Index-1)
-console.log(newSplice) ;
+console.log(`${gameName}    &&&&&    ${newSplice}\n`) ;
 
 
 // Trim --> Extra spaces(start and end)
@@ -44,7 +45,7 @@ console.log(newTrimming.trim() + "Is there any extra space") ;    // Start + End
 
 // Replace
 const url = 'https://souravroy@google.com%100andEvery.com' ;
-console.log(url.replace('%100', '-'))
+console.log(url.replace('%100', '---'))
 
 
 // Finding any keyWord

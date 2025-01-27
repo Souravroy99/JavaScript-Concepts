@@ -2,6 +2,7 @@
 let myDate =  new Date() ;
 console.log(typeof myDate) ;
 
+console.log(myDate) ;
 console.log(myDate.toString()) ;
 console.log(myDate.toISOString()) ;
 console.log(myDate.toJSON()) ;
@@ -11,7 +12,7 @@ console.log(myDate.toLocaleTimeString()) ;
 
 
 /*
-let myCreatedDate = new Date(2004, 4, 18, 22, 1, 100) ; // Year, Month, Date, Hour, Minute, Second
+let myCreatedDate = new Date(2004, 4, 18, 22, 1, 100) ; // Year, Month(0-based), Date, Hour, Minute, Second
 console.log(myCreatedDate.toDateString()) ;
 console.log(myCreatedDate.toLocaleDateString()) ;
 console.log(myCreatedDate.toLocaleString()) ;
@@ -20,7 +21,6 @@ console.log(myCreatedDate.toTimeString()) ;
 
 
 /*
-*/
 let createDate = new Date("04-02-2024");  // MM-DD-YYYY
 console.log(createDate.toString());
 
@@ -45,11 +45,13 @@ console.log(newDate.getFullYear()) ;
 
 let search = new Date() ;
 let week = search.toLocaleDateString("default", {
-    // weekday : "long" 
-    weekday : "short" 
-    // weekday : "narrow" 
-
+    weekday : "long", 
+    // weekday : "short" ,
+    // weekday : "narrow", 
+    
 });
 
 console.log(search.toLocaleDateString()) ;
 console.log(week) ;
+
+*/
